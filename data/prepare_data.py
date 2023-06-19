@@ -166,7 +166,7 @@ if __name__ == '__main__':
                         default='./dataset/celebahq')
 
     parser.add_argument('--size', type=str, default='64,512')
-    parser.add_argument('--n_worker', type=int, default=3)
+    parser.add_argument('--n_worker', type=int, default=0)
     parser.add_argument('--resample', type=str, default='bicubic')
     # default save in png format
     parser.add_argument('--lmdb', '-l', action='store_true')
